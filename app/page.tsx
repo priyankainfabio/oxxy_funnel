@@ -279,7 +279,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         {
           num: "01",
           title: "Choose & Activate",
-          desc: "Pick a plan and activate instantly online.",
+          desc: "Select & buy the most suitable plan online.",
           icon: (
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/>
@@ -289,7 +289,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         },
         {
           num: "02",
-          title: "Book Treatment",
+          title: "Book an appointment",
           desc: "Schedule at any partner hospital or facility.",
           icon: (
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -301,7 +301,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         {
           num: "03",
           title: "Show Your Code",
-          desc: "Present your CMB code before services.",
+          desc: "Present your cut medi bills code before services.",
           icon: (
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
@@ -324,20 +324,14 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
           active: false,
         },
       ].map((step, i) => (
-        <div key={step.num} className="relative flex flex-col">
-          {/* CONNECTOR LINE */}
-          {i < 3 && (
-            <div className="absolute right-0 top-10 z-10 hidden h-px w-1/2 bg-slate-200 md:block" />
-          )}
-          {i > 0 && (
-            <div className="absolute left-0 top-10 z-10 hidden h-px w-1/2 bg-slate-200 md:block" />
-          )}
 
-          <div className="mx-3 flex flex-col rounded-[1.5rem] border border-[#00A99D] bg-white p-7 shadow-xl shadow-[#00A99D]/10 transition hover:-translate-y-2 hover:shadow-2xl">
+        <div key={step.num} className="relative flex flex-col">
+          
+
+          <div className="mx-3 flex flex-col rounded-[1.5rem] border border-[#00A99D]/20 bg-white p-7 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
             {/* TOP ROW */}
             <div className="mb-8 flex items-center justify-between">
-              <span className="text-4xl font-black text-slate-100">{step.num}</span>
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#00A99D] text-white">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#00A99D] text-white">
                 {step.icon}
               </div>
             </div>
@@ -346,8 +340,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
             <p className="mt-2 text-sm leading-6 text-slate-500">{step.desc}</p>
 
             {/* BOTTOM BAR */}
-            <div className="mt-8 h-1 w-full rounded-full bg-slate-100">
-              <div className="h-full w-full rounded-full bg-[#00A99D]" />
+            <div className="mt-8 h-[2px] w-full bg-slate-100">
+              <div className="h-full w-12 bg-[#00A99D]" />
             </div>
           </div>
         </div>
