@@ -62,14 +62,17 @@ export default function Home() {
       </div>
 
       {/* HEADING */}
-      <h1 className="text-[50px] md:text-[60px] leading-[1.1] font-extrabold text-[#0b1c2c] tracking-tight">
-  Your new{" "}
-  <span className="relative text-[#1aa36f]">
-    jugaad
-    <span className="absolute left-0 bottom-1 w-full h-[8px] bg-[#ffe066] rounded-full -z-20"></span>
-  </span>{" "}
-  is OXXY.
-</h1>
+      <h1 className="text-5xl font-bold leading-tight">
+        Your new{" "}
+        <span className="bg-gradient-to-r from-green-600 to-lime-400 bg-clip-text text-transparent">
+          Jugaad
+        </span>{" "}
+        is
+        <br />
+        <span className="block text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-green-600 to-emerald-400 bg-clip-text text-transparent drop-shadow-[0_4px_10px_rgba(16,185,129,0.3)]">
+          OXXY.
+        </span>
+      </h1>
 
       {/* TEXT */}
       <p className="mt-5 max-w-xl text-lg text-slate-600">
@@ -83,9 +86,12 @@ export default function Home() {
           Share My Jugaad Story
         </button>
 
-        <button className="rounded-full bg-white px-6 py-3 font-semibold text-[#0874DE] shadow">
+        <a
+          href="#faq"
+          className="rounded-full bg-white px-6 py-3 font-semibold text-[#0874DE] shadow transition hover:scale-105"
+        >
           See OXXY Benefits
-        </button>
+        </a>
       </div>
       <p className="text-sm text-gray-500 mt-5">
   Trusted by <span className="font-semibold text-[#0b1c2c]">10,000+</span> families across India
@@ -94,7 +100,7 @@ export default function Home() {
     </div>
 
     {/* RIGHT SIDE IMAGE */}
-    <div className="relative flex justify-center items-center">
+    <div className="relative flex justify-center items-start">
 
   {/* gradient glow */}
   <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-[#bfe5d6] via-[#a8d5e2] to-[#8ecae6] blur-[120px] rounded-full opacity-60 z-0" />
@@ -106,9 +112,7 @@ export default function Home() {
     width={600}
     height={520}
     priority
-    className="w-full max-w-[600px] h-auto object-contain relative z-10 scale-105 drop-shadow-[0_30px_60px_rgba(0,0,0,0.2)]"
-  />
-
+className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt-10 translate-y-19 transition-transform duration-500 drop-shadow-[0_30px_60px_rgba(0,0,0,0.2)]"/>
 </div>
 
   </div>
@@ -310,7 +314,7 @@ export default function Home() {
         },
         {
           num: "04",
-          title: "Get Instant Discount",
+          title: "Get instant Discount",
           desc: "Discount applied at the time of payment.",
           icon: (
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -358,7 +362,7 @@ export default function Home() {
       </span>
       <span className="flex items-center gap-2 text-sm font-black text-[#00A99D]">
         <span className="h-2 w-2 rounded-full bg-[#00A99D]" />
-        Just instant savings.
+        Just savings.
       </span>
     </div>
 
@@ -451,7 +455,7 @@ export default function Home() {
       <p className="mt-4 text-slate-500">No waiting periods. No health screening. Instant savings on every bill.</p>
     </div>
 
-    <div className="grid gap-5 lg:grid-cols-4">
+    <div className="grid gap-4 lg:grid-cols-4 items-stretch">
       {[
         {
           name: "CUT BILLS EVERYDAY",
@@ -472,6 +476,7 @@ export default function Home() {
             "Health Screening Not Required",
           ],
           highlight: false,
+          
         },
         {
           name: "CUT BILLS VITAL",
@@ -572,7 +577,7 @@ export default function Home() {
           <div className="my-5 h-px bg-slate-100" />
 
           {/* FEATURES */}
-          <ul className="flex flex-col gap-3">
+          <ul className="flex flex-col gap-3 min-h-[430px]">
             {plan.features.map((f) => (
               <li key={f} className="flex items-start gap-2.5 text-sm text-slate-600">
                 <svg className="mt-0.5 shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00A99D" strokeWidth="2.5">
@@ -584,13 +589,67 @@ export default function Home() {
           </ul>
 
           {/* CTA */}
-          <button className="mt-8 w-full rounded-xl py-3.5 text-sm font-black transition hover:scale-105 bg-[#00A99D] text-white">
-            Buy Now →
+<button className="mt-auto w-full rounded-xl py-3.5 text-sm font-black transition hover:scale-105 bg-[#00A99D] text-white">            Buy Now →
           </button>
         </div>
       ))}
     </div>
 
+  </div>
+</section>
+
+{/* FAQ */}
+<section id="faq" className="px-6 py-24 bg-white">
+  <div className="mx-auto max-w-4xl">
+    <div className="mb-12 text-center">
+      <p className="text-xs font-black uppercase tracking-widest text-[#00A99D]">
+        FAQ
+      </p>
+      <h2 className="mt-3 text-4xl font-black text-[#07182F] md:text-5xl">
+        OXXY Benefits, Explained
+      </h2>
+      <p className="mt-3 text-slate-500">
+        Everything families need to know before choosing OXXY.
+      </p>
+    </div>
+
+    <div className="space-y-4">
+      {[
+        {
+          q: "How does OXXY help reduce medical bills?",
+          a: "OXXY gives access to partner hospitals, diagnostic centers, labs and healthcare facilities where members can get instant discounts.",
+        },
+        {
+          q: "Is OXXY health insurance?",
+          a: "No. OXXY is a healthcare savings program. It helps reduce expenses through discounts, but it is not insurance or reimbursement.",
+        },
+        {
+          q: "Where can I use OXXY benefits?",
+          a: "You can use it for hospitals, OPD, IPD, diagnostics, lab tests, medicines, dental, eye care and selected treatments depending on your plan.",
+        },
+        {
+          q: "Do I need medical screening?",
+          a: "No medical screening is required to activate OXXY benefits.",
+        },
+        {
+          q: "How much can families save?",
+          a: "Depending on the plan, families can access instant savings up to 20%, 25%, 30% or 40%.",
+        },
+      ].map((item) => (
+        <details
+          key={item.q}
+          className="group rounded-2xl border border-[#00A99D]/15 bg-[#f8fbff] p-6 shadow-sm"
+        >
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black text-[#07182F]">
+            {item.q}
+            <span className="text-2xl text-[#00A99D] transition group-open:rotate-45">
+              +
+            </span>
+          </summary>
+          <p className="mt-4 leading-7 text-slate-600">{item.a}</p>
+        </details>
+      ))}
+    </div>
   </div>
 </section>
 
