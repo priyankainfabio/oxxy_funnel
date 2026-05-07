@@ -131,7 +131,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
   <div className="relative z-10 max-w-4xl mx-auto px-6">
     
     <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight">
-      Why OXXY is Best for You
+      Why OXXY is Best for You?
     </h2>
 
     <p className="text-white/70 mt-3 text-base md:text-lg">
@@ -145,8 +145,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
 <section className="px-6 py-20" style={{background: '#fff'}}>
   <div className="mx-auto max-w-7xl">
 
-    <h2 className="text-4xl font-black text-[#07182F] md:text-5xl">Trusted by thousands</h2>
-    <p className="mt-3 text-slate-500">Join the community of Indians saving on medical expenses.</p>
+    <h2 className="text-4xl font-black text-[#07182F] md:text-5xl">Trusted by Thousands</h2>
+    <p className="mt-3 text-slate-500">Join the Community of Indians saving on Medical expenses.</p>
 
     {/* STATS ROW */}
     <div className="mt-12 grid gap-4 md:grid-cols-4">
@@ -194,8 +194,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
     {/* HEADER */}
     <div className="mb-12 text-center">
       <p className="text-xs font-black uppercase tracking-widest text-[#00A99D]">Real Stories. Real Savings.</p>
-      <h2 className="mt-3 text-4xl font-black text-[#07182F] md:text-5xl">Families Who Saved With OXXY</h2>
-      <p className="mt-3 text-slate-500">Thousands of families reduced their medical bills using our CMB system</p>
+      <h2 className="mt-3 text-4xl font-black text-[#07182F] md:text-5xl">Families Who Saved with OXXY</h2>
+      <p className="mt-3 text-slate-500">Thousands of families reduced their medical bills using our OXXY system</p>
     </div>
 
     {/* STATS ROW */}
@@ -246,7 +246,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
       </div>
     ))}
   </div>
-  <p className="text-sm text-gray-500 mt-4">
+  <p className="text-gray-500 mt-4 ml-20">
   Trusted by 10,000+ families across India
 </p>
 </div>
@@ -411,6 +411,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
       <form className="rounded-[2rem] bg-white p-6 shadow-2xl md:p-8">
         <input className="input" placeholder="Your name" />
         <input className="input mt-4" placeholder="City" />
+        <input className="input mt-4" placeholder="Phone number" />
+        <input className="input mt-4" placeholder="Email address" />
         <input className="input mt-4" placeholder="Bill amount e.g. ₹3,80,000" />
 
         <select className="input mt-4">
@@ -420,6 +422,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
           <option>Lab test</option>
           <option>Medicines</option>
           <option>Surgery</option>
+          <option>Other</option>
         </select>
 
         <textarea
@@ -446,7 +449,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
     <div className="mx-auto mb-14 max-w-3xl text-center">
       <p className="text-xs font-black uppercase tracking-widest text-[#0874DE]">Access to 2,00,000+ Medical Facilities</p>
       <h2 className="mt-4 text-4xl font-black leading-tight text-[#07182F] md:text-5xl">Choose your plan</h2>
-      <p className="mt-4 text-slate-500">No waiting periods. No health screening. Instant savings on every bill.</p>
+      <p className="mt-4 text-slate-500">No waiting periods. No health screening. Savings on every bill.</p>
     </div>
 
     <div className="grid gap-4 lg:grid-cols-4 items-stretch">
@@ -463,7 +466,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
             "Applicable on New Diseases",
             "Works on Eye & Dental Check ups",
             "Age limit Upto 70 Years",
-            "Up to 20% Instant Discounts on all Treatments",
+            "Up to 20% Discounts on all Treatments",
             "50 Medical Records on Cloud for Free",
             "Appointment Booking",
             "Activation in 72 Hours",
@@ -484,7 +487,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
             "Applicable on New Diseases",
             "Works on Eye, Dental & Skin Check ups",
             "Age limit Upto 75 Years",
-            "Up to 25% Instant Discounts on all Treatments",
+            "Up to 25% Discounts on all Treatments",
             "100 Medical Records on Cloud for Free",
             "Priority Appointment Booking",
             "Activation in 48 Hours",
@@ -506,7 +509,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
             "Applicable on New & Pre-Existing Diseases",
             "Works on Eye, Dental & Skin Treatments",
             "Age limit Upto 80 Years",
-            "Up to 30% Instant Discounts on all Treatments",
+            "Up to 30% Discounts on all Treatments",
             "200 Medical Records on Cloud for Free",
             "Priority Appointment Booking",
             "Activation in 24 Hours",
@@ -529,7 +532,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
             "Applicable on New & Pre-Existing Diseases",
             "Works on Eye, Dental, Skin & Cosmetic Treatments",
             "No Age limit",
-            "Up to 40% Instant Discounts on all Treatments",
+            "Up to 40% Discounts on all Treatments",
             "500 Medical Records on Cloud for Free",
             "Priority Appointment Booking",
             "Activation in 24 Hours",
@@ -611,7 +614,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
       {[
         {
           q: "How does OXXY help reduce medical bills?",
-          a: "OXXY gives access to partner hospitals, diagnostic centers, labs and healthcare facilities where members can get instant discounts.",
+          a: "OXXY gives access to partner hospitals, diagnostic centers, labs and healthcare facilities where members can get discounts.",
         },
         {
           q: "Is OXXY health insurance?",
@@ -627,7 +630,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         },
         {
           q: "How much can families save?",
-          a: "Depending on the plan, families can access instant savings up to 20%, 25%, 30% or 40%.",
+          a: "Depending on the plan, families can access savings up to 20%, 25%, 30% or 40%.",
         },
       ].map((item) => (
         <details
@@ -675,7 +678,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
     </div>
 
     <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-      {["No hidden charges", "Instant activation", "Cancel anytime"].map((t) => (
+      {["No hidden charges", "Fastest activation", "Cancel anytime"].map((t) => (
         <span key={t} className="flex items-center gap-2 text-sm text-slate-400">
           <span className="h-2 w-2 rounded-full bg-[#00A99D]" />{t}
         </span>
@@ -689,16 +692,92 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
   <div className="mx-auto max-w-7xl px-6 py-16">
     <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
 
-      {/* BRAND */}
-      <div>
-        <div className="mb-4 text-xl font-black text-white">OXXY</div>
-        <p className="text-sm leading-7 text-slate-400">Healthcare savings program helping Indians reduce medical expenses across hospitals, diagnostics and medicines.</p>
-        <div className="mt-6 flex gap-3">
-          {["f", "in", "tw"].map((s) => (
-            <div key={s} className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-xs font-black text-white">{s}</div>
-          ))}
-        </div>
-      </div>
+<div className="flex flex-col gap-6">
+
+  {/* FOLLOW US */}
+  <div>
+    <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
+      Follow Us
+    </p>
+
+    <div className="flex items-center gap-3">
+
+      {/* Facebook */}
+      <a
+        href="#"
+        target="_blank"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+      >
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.88 3.78-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12"/>
+        </svg>
+      </a>
+
+      {/* Instagram */}
+      <a
+        href="#"
+        target="_blank"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+      >
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3z"/>
+        </svg>
+      </a>
+
+      {/* LinkedIn */}
+      <a
+        href="#"
+        target="_blank"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+      >
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5z"/>
+        </svg>
+      </a>
+
+    </div>
+  </div>
+
+  {/* POWERED BY */}
+  <div>
+    <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
+      Powered By
+    </p>
+
+    <div className="inline-flex items-center gap-4 rounded-xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-md">
+
+  <a
+    href="https://fabulousmedia.in/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:scale-105"
+  >
+    <img
+      src="/fabulous-logo.png"
+      alt="Fabulous Media"
+      className="h-8 w-auto object-contain opacity-80 transition hover:opacity-100"
+    />
+  </a>
+
+  <div className="h-5 w-px bg-white/10" />
+
+  <a
+    href="https://gocommercially.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:scale-105"
+  >
+    <img
+      src="/gocommercially-logo.png"
+      alt="Go Commercially"
+      className="h-8 w-auto object-contain opacity-80 transition hover:opacity-100"
+    />
+  </a>
+
+</div>
+  </div>
+
+</div>
 
       {/* QUICK LINKS */}
       <div>
@@ -744,6 +823,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         OXXY is a healthcare savings program and not a health insurance product. OXXY provides discounts on medical services at partner facilities and does not provide insurance coverage, reimbursement, or guarantees of payment. All discounts are subject to availability and terms of partner facilities. Members are responsible for paying discounted amounts directly to service providers.
       </p>
     </div>
+
+    
 
     {/* BOTTOM BAR */}
     <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-8">
