@@ -179,8 +179,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
         </div>
         <div className="rounded-xl border border-[#00A99D]/20 bg-[#f0faf9] p-6">
           <p className="mb-3 text-xs font-black uppercase tracking-widest text-[#00A99D]">With OXXY</p>
-          <p className="text-4xl font-black text-[#00A99D]">₹22,000</p>
-          <p className="mt-3 text-sm text-slate-500">Discounted price — Save ₹28,000!</p>
+          <p className="text-4xl font-black text-[#00A99D]">₹20,000</p>
+          <p className="mt-3 text-sm text-slate-500">Discounted price — Save ₹30,000!</p>
         </div>
       </div>
     </div>
