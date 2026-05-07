@@ -695,87 +695,99 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
 <div className="flex flex-col gap-6">
 
   {/* FOLLOW US */}
-  <div>
-    <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
-      Follow Us
-    </p>
+<div>
+  <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
+    Follow Us
+  </p>
 
-    <div className="flex items-center gap-3">
+  <div className="flex items-center gap-3">
 
-      {/* Facebook */}
-      <a
-        href="#"
-        target="_blank"
-        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+    {/* Facebook */}
+    <a
+      href="#"
+      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white transition duration-300 hover:scale-110 hover:bg-[#00A99D]"
+    >
+      <svg
+        width="18"
+        height="18"
+        fill="currentColor"
+        viewBox="0 0 24 24"
       >
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.88 3.78-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12"/>
-        </svg>
-      </a>
+        <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/>
+      </svg>
+    </a>
 
-      {/* Instagram */}
-      <a
-        href="#"
-        target="_blank"
-        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+    {/* Instagram */}
+    <a
+      href="#"
+      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white transition duration-300 hover:scale-110 hover:bg-[#00A99D]"
+    >
+      <svg
+        width="18"
+        height="18"
+        fill="currentColor"
+        viewBox="0 0 24 24"
       >
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3z"/>
-        </svg>
-      </a>
+        <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm0 2h10c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3zm10.75 1.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+      </svg>
+    </a>
 
-      {/* LinkedIn */}
-      <a
-        href="#"
-        target="_blank"
-        className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/70 transition hover:bg-[#00A99D] hover:text-white"
+    {/* LinkedIn */}
+    <a
+      href="#"
+      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white transition duration-300 hover:scale-110 hover:bg-[#00A99D]"
+    >
+      <svg
+        width="18"
+        height="18"
+        fill="currentColor"
+        viewBox="0 0 24 24"
       >
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5z"/>
-        </svg>
-      </a>
+        <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V24h-4V8zm7 0h3.8v2.2h.05c.53-1 1.82-2.2 3.75-2.2 4 0 4.75 2.63 4.75 6.05V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.85-2.75 3.78V24h-4V8z"/>
+      </svg>
+    </a>
 
-    </div>
   </div>
+</div>
 
   {/* POWERED BY */}
-  <div>
-    <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
-      Powered By
-    </p>
+<div>
+  <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
+    Powered By
+  </p>
 
-    <div className="inline-flex items-center gap-4 rounded-xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-md">
+  <div className="flex items-center gap-3">
 
-  <a
-    href="https://fabulousmedia.in/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition hover:scale-105"
-  >
-    <img
-      src="/fabulous-logo.png"
-      alt="Fabulous Media"
-      className="h-8 w-auto object-contain opacity-80 transition hover:opacity-100"
-    />
-  </a>
+    {/* Fabulous */}
+    <a
+      href="https://fabulousmedia.in/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 transition duration-300 hover:scale-110 hover:bg-white/10"
+    >
+      <img
+        src="/fabulous-logo.png"
+        alt="Fabulous Media"
+        className="h-6 w-6 object-contain"
+      />
+    </a>
 
-  <div className="h-5 w-px bg-white/10" />
+    {/* Go Commercially */}
+    <a
+      href="https://gocommercially.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 transition duration-300 hover:scale-110 hover:bg-white/10"
+    >
+      <img
+        src="/gocommercially-logo.png"
+        alt="Go Commercially"
+        className="h-6 w-6 object-contain"
+      />
+    </a>
 
-  <a
-    href="https://gocommercially.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition hover:scale-105"
-  >
-    <img
-      src="/gocommercially-logo.png"
-      alt="Go Commercially"
-      className="h-8 w-auto object-contain opacity-80 transition hover:opacity-100"
-    />
-  </a>
-
-</div>
   </div>
+</div>
 
 </div>
 
