@@ -749,47 +749,8 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
 
   </div>
 </div>
-
-  {/* POWERED BY */}
-<div>
-  <p className="mb-4 text-xs font-black uppercase tracking-widest text-[#00A99D]">
-    Powered By
-  </p>
-
-  <div className="flex items-center">
-
-    {/* Fabulous */}
-    <a
-      href="https://fabulousmedia.in/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex w-8 items-center "
-    >
-      <img
-        src="/fabulous-logo.png"
-        alt="Fabulous Media"
-        className="h-6 w-6 object-contain"
-      />
-    </a>
-
-    {/* Go Commercially */}
-    <a
-      href="https://gocommercially.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center"
-    >
-      <img
-        src="/gocommercially-logo.png"
-        alt="Go Commercially"
-        className="h-6 w-6 object-contain"
-      />
-    </a>
-
-  </div>
 </div>
-
-</div>
+  
 
       {/* QUICK LINKS */}
       <div>
@@ -836,7 +797,39 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
       </p>
     </div>
 
-    
+    <div className="mt-5 flex justify-end">
+  <div className="flex items-center gap-4 opacity-60">
+
+    <a
+      href="https://fabulousmedia.in/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="transition duration-300 hover:opacity-100 hover:scale-105"
+    >
+      <img
+        src="/fabulous-logo.png"
+        alt="Fabulous Media"
+        className="h-6 w-auto object-contain"
+      />
+    </a>
+
+    <div className="h-4 w-px bg-white/10" />
+
+    <a
+      href="https://gocommercially.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="transition duration-300 hover:opacity-100 hover:scale-105"
+    >
+      <img
+        src="/gocommercially-logo.png"
+        alt="Go Commercially"
+        className="h-5 w-auto object-contain"
+      />
+    </a>
+
+  </div>
+</div>
 
     {/* BOTTOM BAR */}
     <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-8">
