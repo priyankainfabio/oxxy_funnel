@@ -798,33 +798,35 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
     </div>
 
     <div className="mt-5 flex justify-end">
-  <div className="flex items-center gap-4 opacity-60">
+  <div className="inline-flex items-center gap-2 rounded-lg border border-white/20 bg-white/5 px-3 py-2 transition-all duration-300 hover:bg-white/10">
 
     <a
       href="https://fabulousmedia.in/"
       target="_blank"
       rel="noopener noreferrer"
-      className="transition duration-300 hover:opacity-100 hover:scale-105"
+      className="opacity-90 hover:opacity-100 transition-opacity"
+      aria-label="FabulousMedia"
     >
       <img
         src="/fabulous-logo.png"
-        alt="Fabulous Media"
-        className="h-6 w-auto object-contain"
+        alt="FabulousMedia"
+        className="h-3 w-auto"
       />
     </a>
 
-    <div className="h-4 w-px bg-white/10" />
+    <span className="h-3 w-px bg-white/30" />
 
     <a
       href="https://gocommercially.com/"
       target="_blank"
       rel="noopener noreferrer"
-      className="transition duration-300 hover:opacity-100 hover:scale-105"
+      className="opacity-90 hover:opacity-100 transition-opacity"
+      aria-label="GoCommercially"
     >
       <img
         src="/gocommercially-logo.png"
-        alt="Go Commercially"
-        className="h-5 w-auto object-contain"
+        alt="GoCommercially"
+        className="h-3 w-auto"
       />
     </a>
 
