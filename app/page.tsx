@@ -756,14 +756,14 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
     Powered By
   </p>
 
-  <div className="flex items-center gap-3">
+  <div className="flex items-center">
 
     {/* Fabulous */}
     <a
       href="https://fabulousmedia.in/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 transition duration-300 hover:scale-110 hover:bg-white/10"
+      className="flex w-8 items-center "
     >
       <img
         src="/fabulous-logo.png"
@@ -777,7 +777,7 @@ className="w-full max-w-[650px] h-auto object-contain relative z-10 scale-110 mt
       href="https://gocommercially.com/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 transition duration-300 hover:scale-110 hover:bg-white/10"
+      className="flex items-center justify-center"
     >
       <img
         src="/gocommercially-logo.png"
